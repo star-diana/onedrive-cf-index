@@ -18,7 +18,7 @@ const config = {
   },
 
   refresh_token: REFRESH_TOKEN,
-  client_id: '6600e358-9328-4050-af82-0af9cdde796b',
+  client_id: 'cc792226-9242-4d33-9d79-5aaedf0ede72',
   client_secret: CLIENT_SECRET,
 
   /**
@@ -63,7 +63,7 @@ const config = {
     entireFileCacheLimit: 10000000, // 10MB
     chunkedCacheLimit: 100000000, // 100MB
     previewCache: false,
-    paths: ['/🥟%20Some%20test%20files/Previews']
+    paths: ['/Previews']
   },
 
   /**
@@ -81,8 +81,8 @@ const config = {
    * The <secret_key> is defined by you
    */
   upload: {
-    enable: false,
-    key: 'your_secret_key_here'
+    enable: true,
+    key: 'diana0307'
   },
 
   /**
