@@ -50,9 +50,9 @@ export async function renderFolderView(items, path, request) {
     )
 
   const intro = `<div class="intro markdown-body" style="text-align: left; margin-top: 2rem;">
-                    <h2>Yoo, I'm Spencer Woo 👋</h2>
-                    <p>This is Spencer's OneDrive public directory listing. Feel free to download any files that you find useful. Reach me at: spencer.wushangbo [at] gmail [dot] com.</p>
-                    <p><a href="https://spencerwoo.com">Portfolio</a> · <a href="https://blog.spencerwoo.com">Blog</a> · <a href="https://github.com/spencerwooo">GitHub</a></p>
+                    <h2>关注<a target="_blank" href="https://space.bilibili.com/672328094">嘉然🎀</a>，顿顿解馋🤤</h2>
+                    <div><img src='https://cdn.jsdelivr.net/gh/star-diana/assets@main/images/diana_live_cover.webp' alt='diana_cover' style="width: 100%;"></div>
+                    <p><a target="_blank" href="https://space.bilibili.com/672328094">bilibili@嘉然今天吃什么</a> · <a target="_blank" href="https://blog.aili.moe">我的博客</a> · <a target="_blank" href="https://github.com/star-diana">GitHub</a></p>
                   </div>`
 
   // Check if current directory contains README.md, if true, then render spinner
