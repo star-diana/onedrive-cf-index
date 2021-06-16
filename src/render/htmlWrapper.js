@@ -1,5 +1,3 @@
-import { favicon } from './favicon'
-
 const COMMIT_HASH = 'ad7b598'
 
 const pagination = (pIdx, attrs) => {
@@ -33,7 +31,7 @@ export function renderHTML(body, pLink, pIdx) {
       <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
       <title>Spencer's OneDrive</title>
-      <link rel="shortcut icon" type="image/png" sizes="16x16" href="${favicon}" />
+      <link rel="icon" href="https://cdn.jsdelivr.net/gh/star-diana/assets@main/images/favicon.ico" />
       <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.1/css/all.min.css" rel="stylesheet">
       <link href="https://cdn.jsdelivr.net/gh/spencerwooo/onedrive-cf-index@${COMMIT_HASH}/themes/spencer.css" rel="stylesheet">
       <link href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@gh-pages/github-markdown.css" rel="stylesheet">
